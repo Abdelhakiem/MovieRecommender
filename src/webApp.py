@@ -48,6 +48,6 @@ st.write(
     ### Recommended movies:
     '''
 )
-if st.button('Predict'):
+if st.button('Recommend'):
     res=model.predict(data)
     st.write(res)
